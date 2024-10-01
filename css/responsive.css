@@ -130,6 +130,27 @@
            }
 
            /* =================================== */
+           .sustainability-bg {
+               padding: 10px;
+           }
+
+           .sustainability-header a {
+               font-size: 12px;
+           }
+
+           .sustainability-title {
+               margin-left: 10px;
+               margin-right: 10px;
+               padding: 10px;
+           }
+
+           .sustainability-title h3 {
+               font-size: 16px;
+               margin-left: 0;
+               text-align: center;
+           }
+
+           /* =================================== */
 
        }
 
@@ -257,6 +278,27 @@
            .management-team .col-lg-3 {
                flex: 0 0 100%;
                max-width: 100%;
+               text-align: center;
+           }
+
+           /* =================================== */
+           .sustainability-bg {
+               padding: 10px;
+           }
+
+           .sustainability-header a {
+               font-size: 12px;
+           }
+
+           .sustainability-title {
+               margin-left: 10px;
+               margin-right: 10px;
+               padding: 10px;
+           }
+
+           .sustainability-title h3 {
+               font-size: 19px;
+               margin-left: 0;
                text-align: center;
            }
 
@@ -393,6 +435,28 @@
            }
 
            /* =================================== */
+           .sustainability-bg {
+               padding: 10px;
+           }
+
+           .sustainability-header a {
+               font-size: 12px;
+           }
+
+           .sustainability-title {
+               margin-left: 10px;
+               margin-right: 10px;
+               padding: 10px;
+           }
+
+           .sustainability-title h3 {
+               font-size: 23px;
+               margin-left: 0;
+               text-align: center;
+           }
+
+           /* =================================== */
+
 
        }
 

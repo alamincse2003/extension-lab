@@ -399,3 +399,69 @@ company & news page start
 /*============================ 
 company & news page end
 ============================= */
+
+/*========================
+sustainability page start 
+==========================*/
+.sustainability-bg {
+    background-color: var(--white-color);
+    padding: 20px;
+}
+
+.sustainability-header a {
+    color: var(--black-color);
+}
+
+.sustainability-title {
+    /* background: var(--neutral-color); */
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+
+}
+
+.sustainability-title h3 {
+    text-transform: uppercase;
+    color: var(--sky-blue-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    margin-left: 50px;
+}
+
+.sustainability-left-side {
+    margin-top: 40px;
+}
+
+.sustainability-left-side-heading h3 {
+    font-weight: 400;
+    color: var(--sky-blue-color);
+    font-size: 24px;
+}
+
+.sustainability-left-side-heading h3 span {
+    text-transform: uppercase;
+}
+
+.sustainability-left-side-content p {
+    margin-top: 15px;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 18px;
+}
+
+.sustainability-left-side-content p span {
+    text-transform: uppercase;
+
+}
+
+.sustainability-right-side-content p {
+    margin-top: 85px;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 18px;
+}
+/*========================
+sustainability page end 
+==========================*/
