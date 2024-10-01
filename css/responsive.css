@@ -83,6 +83,54 @@
                font-size: 20px;
            }
 
+           /* =================================== */
+           .management-team-bg {
+               padding-top: 50px;
+               padding-left: 10px;
+               padding-right: 10px;
+               margin-left: 0;
+               margin-right: 0;
+               margin-top: 10px;
+           }
+
+           .management-team-items {
+               margin-top: 20px;
+           }
+
+           .management-team .management-team-title h3 {
+               font-size: 28px;
+               text-align: center;
+           }
+
+           .management-team .management-team-items .management-team-items-image img {
+               width: 200px;
+               height: 200px;
+           }
+
+           .management-team .management-team-items .management-team-items-content h2 {
+               font-size: 18px;
+               margin-top: 5px;
+           }
+
+           .management-team .management-team-items .management-team-items-content h3 {
+               font-size: 14px;
+               /* Adjust font size */
+           }
+
+           .management-team .row {
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+           }
+
+           .management-team .col-lg-3 {
+               flex: 0 0 100%;
+               max-width: 100%;
+               text-align: center;
+           }
+
+           /* =================================== */
+
        }
 
        @media only screen and (max-width: 424px) and (min-width: 375px) {
@@ -166,6 +214,53 @@
            .contact-information-email i {
                font-size: 20px;
            }
+
+           /* =================================== */
+           .management-team-bg {
+               padding-top: 50px;
+               padding-left: 10px;
+               padding-right: 10px;
+               margin-left: 0;
+               margin-right: 0;
+               margin-top: 10px;
+           }
+
+           .management-team-items {
+               margin-top: 20px;
+           }
+
+           .management-team .management-team-title h3 {
+               font-size: 28px;
+               text-align: center;
+           }
+
+           .management-team .management-team-items .management-team-items-image img {
+               width: 250px;
+               height: 250px;
+           }
+
+           .management-team .management-team-items .management-team-items-content h2 {
+               font-size: 18px;
+               margin-top: 5px;
+           }
+
+           .management-team .management-team-items .management-team-items-content h3 {
+               font-size: 14px;
+           }
+
+           .management-team .row {
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+           }
+
+           .management-team .col-lg-3 {
+               flex: 0 0 100%;
+               max-width: 100%;
+               text-align: center;
+           }
+
+           /* =================================== */
 
        }
 
@@ -251,6 +346,54 @@
            .contact-information-email i {
                font-size: 20px;
            }
+
+           /* =================================== */
+           .management-team-bg {
+               padding-top: 50px;
+               padding-left: 10px;
+               padding-right: 10px;
+               margin-left: 0;
+               margin-right: 0;
+               margin-top: 10px;
+           }
+
+           .management-team-items {
+               margin-top: 20px;
+           }
+
+           .management-team .management-team-title h3 {
+               font-size: 28px;
+               text-align: center;
+           }
+
+           .management-team .management-team-items .management-team-items-image img {
+               width: 300px;
+               height: 300px;
+           }
+
+           .management-team .management-team-items .management-team-items-content h2 {
+               font-size: 18px;
+               margin-top: 5px;
+           }
+
+           .management-team .management-team-items .management-team-items-content h3 {
+               font-size: 14px;
+           }
+
+           .management-team .row {
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+           }
+
+           .management-team .col-lg-3 {
+               flex: 0 0 100%;
+               max-width: 100%;
+               text-align: center;
+           }
+
+           /* =================================== */
+
        }
 
        @media only screen and (max-width: 1198px) and (min-width: 768px) {
