@@ -4,14 +4,21 @@
            }
 
            .top-navbar .tagline h3 {
-               font-size: 17px;
-               text-align: center;
+               font-size: 16px;
+           }
+
+           .top-navbar .tagline h4 {
+               font-size: 16px;
            }
 
            .main_logo {
                display: block;
            }
 
+           .main_logo img {
+               Width: 200px;
+               Height: 67px
+           }
 
            .antifoam-defoamers-product-finder-left-side {
                font-size: 14px;
@@ -32,28 +39,49 @@
 
 
            .antifoam-defoamers-details-left-side-content h1 {
-               font-size: 1.5em;
+               font-size: 18px;
            }
 
            .antifoam-defoamers-details-left-side-content p {
                font-size: 0.9em;
+               width: 264px;
            }
 
            .antifoam-defoamers-details-left-side-content ul {
                padding-left: 20px;
            }
 
-           .antifoam-defoamers-details-right-side img {
-               margin-top: 10px;
-               width: 296px;
-               height: auto;
+           .antifoam-defoamers-details-right-side {
+               padding: 15px;
+               width: 100%;
            }
 
-           /* 
-           .antifoam-defoamers-details-left-side img {
-               max-width: 100% !important;
-               height: auto;
-           } */
+           .antifoam-defoamers-details-right-side-content {
+               flex-direction: column;
+           }
+
+           .contact-information h3 {
+               font-size: 20px;
+               text-align: center;
+           }
+
+           .antifoam-defoamers-details-right-side-image {
+               width: 120px;
+               height: 120px;
+           }
+
+           .contact-information-email {
+               justify-content: center;
+               flex-direction: column;
+           }
+
+           .contact-information-email span {
+               font-size: 16px;
+           }
+
+           .contact-information-email i {
+               font-size: 20px;
+           }
 
        }
 
@@ -63,37 +91,82 @@
            }
 
            .top-navbar .tagline h3 {
-               font-size: 20px;
+               font-size: 18px;
+           }
+
+           .top-navbar .tagline h4 {
+               font-size: 18px;
            }
 
            .main_logo {
                display: block;
            }
 
-           .antifoam-defoamers-details-right-side .contact-information h3 {
-               font-size: 20px;
-               font-weight: 700;
-               color: var(--black-color);
+           .main_logo img {
+               Width: 200px;
+               Height: 67px
            }
 
-           .antifoam-defoamers-details-right-side {
-               margin-top: 20px;
-           }
-
-           .antifoam-defoamers-details-right-side .contact-information p {
+           .antifoam-defoamers-details-left-side-content h1 {
                font-size: 18px;
-               font-weight: 500;
-               color: var(--primary-color);
+           }
+
+           .antifoam-defoamers-details-left-side-content p {
+               font-size: 0.9em;
+               width: 298px;
            }
 
            .antifoam-defoamers-details-right-side {
                display: flex;
                flex-direction: column;
            }
-           .antifoam-defoamers-details-right-side img {
-               width: 352px;
-               height: auto;
+
+
+           .antifoam-defoamers-details-left-side-content h1 {
+               font-size: 18px;
            }
+
+           .antifoam-defoamers-details-left-side-content p {
+               font-size: 0.9em;
+               width: 264px;
+           }
+
+           .antifoam-defoamers-details-left-side-content ul {
+               padding-left: 20px;
+           }
+
+           .antifoam-defoamers-details-right-side {
+               padding: 15px;
+               width: 100%;
+           }
+
+           .antifoam-defoamers-details-right-side-content {
+               flex-direction: column;
+           }
+
+           .contact-information h3 {
+               font-size: 20px;
+               text-align: center;
+           }
+
+           .antifoam-defoamers-details-right-side-image {
+               width: 120px;
+               height: 120px;
+           }
+
+           .contact-information-email {
+               justify-content: center;
+               flex-direction: column;
+           }
+
+           .contact-information-email span {
+               font-size: 16px;
+           }
+
+           .contact-information-email i {
+               font-size: 20px;
+           }
+
        }
 
        @media only screen and (max-width: 767px) and (min-width: 425px) {
@@ -103,21 +176,80 @@
            }
 
            .top-navbar .tagline h3 {
-               font-size: 23px;
+               font-size: 22px;
+           }
+
+           .top-navbar .tagline h4 {
+               font-size: 22px;
            }
 
            .main_logo {
                display: block;
            }
 
-           .antifoam-defoamers-details-right-side {
-               margin-top: 20px;
+           .main_logo img {
+               Width: 200px;
+               Height: 67px
            }
 
-           .antifoam-defoamers-details-right-side .contact-information p {
-               font-size: 15px;
-               font-weight: 500;
-               color: var(--primary-color);
+           .antifoam-defoamers-details-left-side-content h1 {
+               font-size: 18px;
+           }
+
+           .antifoam-defoamers-details-left-side-content p {
+               font-size: 0.9em;
+               width: 368px;
+           }
+
+           .antifoam-defoamers-details-right-side {
+               display: flex;
+               flex-direction: column;
+           }
+
+
+           .antifoam-defoamers-details-left-side-content h1 {
+               font-size: 18px;
+           }
+
+           .antifoam-defoamers-details-left-side-content p {
+               font-size: 0.9em;
+               width: 264px;
+           }
+
+           .antifoam-defoamers-details-left-side-content ul {
+               padding-left: 20px;
+           }
+
+           .antifoam-defoamers-details-right-side {
+               padding: 15px;
+               width: 100%;
+           }
+
+           .antifoam-defoamers-details-right-side-content {
+               flex-direction: column;
+           }
+
+           .contact-information h3 {
+               font-size: 20px;
+               text-align: center;
+           }
+
+           .antifoam-defoamers-details-right-side-image {
+               width: 120px;
+               height: 120px;
+           }
+
+           .contact-information-email {
+               justify-content: center;
+               flex-direction: column;
+           }
+
+           .contact-information-email span {
+               font-size: 16px;
+           }
+
+           .contact-information-email i {
+               font-size: 20px;
            }
        }
 

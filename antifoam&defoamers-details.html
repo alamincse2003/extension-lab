@@ -10,6 +10,11 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- google font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- font awesome  -->
     <link
       rel="stylesheet"
@@ -21,14 +26,19 @@
   </head>
   <body>
     <!-- Top Navbar -->
-    <div class="top-navbar">
-      <div class="logo">
-        <a style="cursor: pointer" href="index.html">
-            <img src="images/logo/logo.png" alt="" />
-        </a>
-      </div>
-      <div class="tagline">
-        <h3>Committed to excellence since 2021</h3>
+    <div class="container">
+      <div class="top-navbar">
+        <div class="logo">
+          <a style="cursor: pointer" href="index.html">
+            <img src="images/logo/logo.jpg" alt="" />
+          </a>
+        </div>
+        <div class="tagline">
+          <h4>Additives</h4>
+        </div>
+        <div class="tagline">
+          <h3>Committed to excellence</h3>
+        </div>
       </div>
     </div>
 
@@ -37,8 +47,7 @@
       <div class="container-fluid">
         <div class="main_logo">
           <a href="index.html">
-                        <img src="images/logo/logo.png" alt="" />
-
+            <img src="images/logo/logo.jpg" alt="" />
           </a>
         </div>
         <button
@@ -115,6 +124,35 @@
                 <li><a class="dropdown-item" href="#">- Detergent</a></li>
               </ul>
             </div>
+
+            <!-- <div class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="products.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">-Antifoam & Defoamers</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >-Wetting & Dispersing Agents</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">-Rheology Control</a></li>
+                <li><a class="dropdown-item" href="#">-Softener</a></li>
+                <li><a class="dropdown-item" href="#">-Silicone</a></li>
+                <li><a class="dropdown-item" href="#">-UV Protector</a></li>
+                <li><a class="dropdown-item" href="#">-Emulsifier</a></li>
+                <li><a class="dropdown-item" href="#">-Detergent</a></li>
+              </ul>
+            </div> -->
             <a class="nav-link" href="#">Company & News</a>
             <a class="nav-link" href="#">Sustainability</a>
             <a class="nav-link" href="#">Service</a>
@@ -175,89 +213,95 @@
     <!-- =======================
      Hidden Search Input end
     ============================ -->
-    <section class="antifoam-defoamers-details">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="antifoam-defoamers-details-left-side">
-              <div class="antifoam-defoamers-details-left-side-content">
-                <div>
-                  <h1>Description</h1>
-                  <p>
-                    <span>Break-THRU<sup>®</sup> S 240</span> is a polyether
-                    trisiloxane. In aqueous solution, it imparts super spreading
-                    and dramatically reduces surface tension. Therefore the
-                    biological performance of crop protection products can be
-                    significantly enhanced by
-                  </p>
-                  <ul>
-                    <li>
-                      <i class="fas fa-circle"></i>
-                      Superior Wetting of hydrophobic surfaces, in particular
-                      leaves and other parts of plants
-                    </li>
-                    <li>
-                      <i class="fas fa-circle"></i> Better uptake through
-                      penetration of cuticular waxes
-                    </li>
-                    <li><i class="fas fa-circle"></i> Stomatal flooding</li>
-                  </ul>
-                </div>
-                <br />
-                <div>
-                  <h1>Typical Applications</h1>
-                  <p>
-                    <span>Break-THRU<sup>®</sup> S 240</span> can be used in
-                    tank mix applications as well in formulations. Please
-                    inquire for details. For tank mixtures pesticide
-                    manufactures may suggest a rate of a non-ionic surfactant to
-                    be used with their product. Follow the corresponding lablel
-                    recommendation.
-                  </p>
-                </div>
+<section class="section">
+      <div class="antifoam-defoamers-details">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="antifoam-defoamers-details-left-side">
+                <div class="antifoam-defoamers-details-left-side-content">
+                  <div>
+                    <h1>Description</h1>
+                    <p>
+                      <span>Break-THRU<sup>®</sup> S 240</span> is a polyether
+                      trisiloxane. In aqueous solution, it imparts super
+                      spreading and dramatically reduces surface tension.
+                      Therefore the biological performance of crop protection
+                      products can be significantly enhanced by
+                    </p>
+                    <ul>
+                      <li>
+                        <i class="fas fa-circle"></i>
+                        Superior Wetting of hydrophobic surfaces, in particular
+                        leaves and other parts of plants
+                      </li><br>
+                      <li>
+                        <i class="fas fa-circle"></i> Better uptake through
+                        penetration of cuticular waxes
+                      </li><br>
+                      <li><i class="fas fa-circle"></i> Stomatal flooding</li>
+                    </ul>
+                  </div>
+                  <br />
+                  <div>
+                    <h1>Typical Applications</h1>
+                    <p>
+                      <span>Break-THRU<sup>®</sup> S 240</span> can be used in
+                      tank mix applications as well in formulations. Please
+                      inquire for details. For tank mixtures pesticide
+                      manufactures may suggest a rate of a non-ionic surfactant
+                      to be used with their product. Follow the corresponding
+                      lablel recommendation.
+                    </p>
+                  </div><br>
 
-                <div>
-                  <h1>Downloads</h1>
-                  <a
-                    href="images/download/Zariq Website UI UX- About Us.pdf"
-                    target="_blank"
-                    class="download-btn"
-                    download
-                  >
-                    <i class="fas fa-book"></i> TDS Download
-                  </a>
-                  <!-- <ul>
-                    <li>
-                      <i class="fas fa-book"></i> <span>Tds Download</span>
-                    </li>
-                  </ul> -->
+                  <div>
+                    <h1>Downloads</h1>
+                    <a
+                      href="images/download/Zariq Website UI UX- About Us.pdf"
+                      target="_blank"
+                      class="download-btn"
+                      download
+                    >
+                      <i class="fas fa-book"></i> TDS Download
+                    </a>
+                 
+                  </div>
                 </div>
               </div>
-              
             </div>
-          </div>
-         <div class="col-lg-5">
-            <div class="antifoam-defoamers-details-right-side">
-                <div>
-                <img src="images/products/image1.png" alt="img" />
+          <div class="col-lg-5">
+              <div class="antifoam-defoamers-details-right-side">
+                <div class="contact-information">
+                  <h3>Your Contact</h3>
+                </div>
+                <div class="antifoam-defoamers-details-right-side-content">
+                  <div class="antifoam-defoamers-details-right-side-image">
+                    <img src="images/products/image1.png" alt="img" />
+                  </div>
+                  <div class="contact-information">
+                    <a href="#">Redwanul Hoque</a>
+                  </div>
+                </div>
+                <div class="contact-information-email">
+                  <a href="#">
+                    <span>Email</span><i class="fas fa-envelope"></i>
+                  </a>
+                </div>
               </div>
-            <div class="contact-information">
-              <h3>Your Contact:</h3>
-              <p>Redwanul Hoque</p>
-              <p>M: +8801978605540</p>
-              <p>E: redwanul@extension-lab.com</p>
-            </div>
-            </div>
+            </div> 
           </div>
         </div>
       </div>
-    </section>
 
-    <section>
-      <div class="back-btn-container">
-        <a href="#" class="back-btn"><i class="fas fa-angle-left"></i> Back</a>
+      <div class="back-btn-section">
+        <div class="back-btn-container">
+          <a href="#" class="back-btn"
+            ><i class="fas fa-angle-left"></i> Back</a
+          >
+        </div>
       </div>
-    </section>
+    </section> 
     <!--==============================
 antifoam & defoamers details page end 
 ====================================== -->

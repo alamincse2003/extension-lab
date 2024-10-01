@@ -41,7 +41,7 @@ body {
     --primary-color: #4472d1;
     --black-color: #000000;
     --white-color: #ffffff;
-    --purple-color: #991d85;
+    --blue-color: #120958;
     --light-gray: #e8e6e0;
     --neutral-color: #d0cbc7;
 
@@ -61,12 +61,22 @@ body {
     padding: 10px 20px;
 }
 
-.top-navbar .logo {
-    font-size: 24px;
-    font-weight: bold;
+.top-navbar .logo img {
+    Width: 400px;
+    Height: 135px;
+}
+
+.top-navbar .tagline h4 {
+    font-family: "Roboto",
+        sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .top-navbar .tagline h3 {
+    font-family: "Roboto",
+        sans-serif;
+    font-weight: 400;
     font-size: 18px;
 }
 
@@ -75,33 +85,12 @@ body {
     display: none;
 }
 
-.main-navbar {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px 20px;
-}
-
-
-
-.main-navbar ul {
-    list-style-type: none;
-    display: flex;
-}
-
-.main-navbar ul li {
-    position: relative;
-}
-
-.main-navbar ul li a {
-    color: var(--primary-color);
-    padding: 10px 15px;
-    text-decoration: none;
-    display: block;
-}
-
 .navbar-nav a {
+    font-family: "Roboto",
+        sans-serif;
     font-size: 18px;
     color: var(--primary-color) !important;
+    font-weight: 400;
 }
 
 .navbar-nav .dropdown:hover .dropdown-menu {
@@ -123,7 +112,7 @@ body {
 
 .antifoam-defoamers-item-title h3 {
     font-size: 16px;
-    color: var(--purple-color);
+    color: var(--blue-color);
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -184,7 +173,7 @@ antifoam & defoamers details page start
 
 .antifoam-defoamers-product-title {
     margin-top: 20px;
-    background-color: var(--purple-color);
+    background-color: var(--blue-color);
 
 }
 
@@ -194,20 +183,24 @@ antifoam & defoamers details page start
     color: var(--white-color);
 }
 
-.antifoam-defoamers-details {
-    margin-top: 20px;
+.section {
+    background: var(--light-gray);
 }
 
-/* .antifoam-defoamers-details-left-side {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-} */
+.antifoam-defoamers-details {
+    padding-top: 20px;
+
+}
+
+.antifoam-defoamers-details-left-side {
+    background-color: var(--white-color);
+    padding: 30px;
+}
 
 .antifoam-defoamers-details-left-side-content h1 {
     font-size: 20px;
     font-weight: 700;
-    color: var(--purple-color);
+    color: var(--blue-color);
     text-transform: uppercase;
 }
 
@@ -217,7 +210,7 @@ antifoam & defoamers details page start
 }
 
 .antifoam-defoamers-details-left-side-content p {
-    text-align: justify;
+    width: 480px;
 }
 
 .antifoam-defoamers-details-left-side-content ul li {
@@ -226,37 +219,93 @@ antifoam & defoamers details page start
 
 .antifoam-defoamers-details-left-side-content ul li i {
     font-size: 12px;
-    color: var(--purple-color);
+    color: var(--blue-color);
 }
 
 .antifoam-defoamers-details-right-side {
-    display: flex;
-    gap: 30px;
+    background-color: var(--white-color);
+    padding: 30px;
+    width: 560px;
+    max-width: 560px;
+    margin: 0 auto;
 }
 
-.antifoam-defoamers-details-right-side .contact-information h3 {
-    font-size: 24px;
-    font-weight: 700;
-    color: var(--black-color);
-}
-
-.antifoam-defoamers-details-right-side .contact-information p {
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--primary-color);
-}
-
-.download-btn {
-    color: var(--purple-color);
-}
-
-
-.back-btn-container {
-    margin-top: 10px;
+.antifoam-defoamers-details-right-side-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--purple-color);
+    background-color: var(--light-gray);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.antifoam-defoamers-details-right-side-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.antifoam-defoamers-details-right-side-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-information h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--blue-color);
+    text-transform: uppercase;
+}
+
+.contact-information-email {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.contact-information-email i {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--blue-color);
+}
+
+.contact-information-email span {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--blue-color);
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+.contact-information a {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black-color);
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    margin-left: 12px;
+}
+/* =========================== */
+
+.download-btn {
+    color: var(--blue-color);
+}
+
+.back-btn-section {
+    margin-top: 20px;
+}
+
+.back-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-color);
 }
 
 .back-btn {
@@ -277,7 +326,7 @@ antifoam & defoamers details page start
     ===============================*/
 .search-input-container {
     margin-top: 10px;
-    background-color: var(--purple-color);
+    background-color: var(--blue-color);
     padding: 20px;
     display: none;
 }
