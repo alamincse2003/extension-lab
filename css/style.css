@@ -101,6 +101,60 @@ body {
 }
 
 /*=====================
+ banner  section start
+=======================*/
+
+.banner-bg {
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    width: 36%;
+    background-color: var(--white-color);
+    padding: 16px;
+    border-radius: 44px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner-content h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.banner-search-box {
+    display: flex;
+    align-items: center;
+}
+
+.banner-search-box p {
+    border: none;
+    outline: none;
+    padding: 8px;
+    flex-grow: 1;
+    margin-top: 13px;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.banner-search-box i {
+    color: var(--black-color);
+    font-size: 28px;
+}
+
+/*=====================
+ banner  section end
+=======================*/
+
+/*=====================
  antifoam & defoamers page start
 =======================*/
 .antifoam-defoamers {
@@ -139,7 +193,7 @@ antifoam & defoamers page end
 antifoam & defoamers details page start
 ======================================= */
 .antifoam-defoamers-product-finder {
-    background-color: var(--neutral-color);
+    background-color: var(--white-color);
 }
 
 .antifoam-defoamers-product-finder-section {
@@ -152,11 +206,11 @@ antifoam & defoamers details page start
 }
 
 .antifoam-defoamers-product-finder-left-side a {
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 .antifoam-defoamers-product-finder-left-side i {
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 .antifoam-defoamers-product-finder-right-side {
@@ -186,9 +240,9 @@ antifoam & defoamers details page start
     color: var(--white-color);
 }
 
-.section {
+/* .section {
     background: var(--light-gray);
-}
+} */
 
 .antifoam-defoamers-details {
     padding-top: 20px;
@@ -462,6 +516,150 @@ sustainability page start
     color: var(--black-color);
     font-size: 18px;
 }
+
 /*========================
 sustainability page end 
+==========================*/
+
+/*========================
+services page start
+==========================*/
+.service-header a {
+    color: var(--black-color);
+}
+
+.service-title h3 {
+    margin-top: 70px;
+    font-weight: 400;
+    color: var(--sky-blue-color);
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.service-content p {
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 18px;
+}
+
+.service-items {
+    margin-top: 50px;
+}
+
+.service-items-image img {
+    width: 286px;
+    height: 160px;
+}
+
+.service-items-title h3 {
+    margin-top: 20px;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 18px;
+}
+
+/*========================
+services page end
+==========================*/
+
+/*========================
+services details page start
+==========================*/
+/*========================
+services details page end
+==========================*/
+
+/*========================
+contact page start
+==========================*/
+.contact-header a {
+    color: var(--black-color);
+}
+
+.contact-left-side,
+.contact-right-side {
+    margin-top: 50px;
+}
+
+.contact-left-side-heading h3 {
+    color: var(--sky-blue-color);
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.contact-left-side-content p {
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 18px;
+    margin: 0;
+}
+
+.contact-right-side {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-right-side-content h3 {
+    font-weight: 400;
+    /* width: 263px; */
+    color: var(--sky-blue-color);
+    font-size: 24px;
+}
+
+.contact-right-side-content p {
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 18px;
+    /* width: 393px; */
+}
+
+.contact-right-side-image img {
+    width: 387px;
+    height: 218px;
+}
+
+/*========================
+contact page end
+==========================*/
+
+/*========================
+service details page start
+==========================*/
+.services-details-segment {
+    margin-top: 100px;
+}
+
+.services-details-segment-heading h3 {
+    font-weight: 400;
+    color: var(--sky-blue-color);
+    font-size: 24px;
+}
+
+.services-details-btn {
+    color: var(--sky-blue-color);
+}
+
+.services-details-segment-content {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.services-details-segment-content a {
+    text-transform: uppercase;
+    color: var(--sky-blue-color);
+    font-size: 20px;
+    font-weight: 700px;
+
+}
+
+.services-details-segment-content p {
+    color: var(--black-color);
+    font-size: 20px;
+    font-weight: 700px;
+
+}
+
+/*========================
+service details page end
 ==========================*/

@@ -20,6 +20,27 @@
                Height: 67px
            }
 
+           /* =================================== */
+           .banner-bg {
+               height: 60vh;
+           }
+
+           .banner-content {
+               width: 90%;
+               padding: 5px;
+               border-radius: 41px;
+           }
+
+           .banner-search-box p {
+               font-size: 14px;
+               padding: 6px;
+           }
+
+           .banner-search-box i {
+               font-size: 22px;
+           }
+
+           /* =================================== */
            .antifoam-defoamers-product-finder-left-side {
                font-size: 14px;
            }
@@ -114,7 +135,6 @@
 
            .management-team .management-team-items .management-team-items-content h3 {
                font-size: 14px;
-               /* Adjust font size */
            }
 
            .management-team .row {
@@ -151,6 +171,28 @@
            }
 
            /* =================================== */
+           .service-items-image img {
+               width: 308px;
+               height: 160px;
+           }
+
+           /* =================================== */
+           .contact-right-side {
+               flex-direction: column;
+           }
+
+           .contact-right-side-image img {
+               width: 305px;
+               height: 218px;
+           }
+
+           /* =================================== */
+           .services-details-segment-heading h3 {
+               font-size: 24px;
+               text-align: center;
+           }
+
+           /* =================================== */
 
        }
 
@@ -176,6 +218,27 @@
                Height: 67px
            }
 
+           /* ============================= */
+           .banner-bg {
+               height: 60vh;
+           }
+
+           .banner-content {
+               width: 90%;
+               padding: 5px;
+               border-radius: 41px;
+           }
+
+           .banner-search-box p {
+               font-size: 15px;
+               padding: 6px;
+           }
+
+           .banner-search-box i {
+               font-size: 32px;
+           }
+
+           /* ============================= */
            .antifoam-defoamers-details-left-side-content h1 {
                font-size: 18px;
            }
@@ -303,6 +366,28 @@
            }
 
            /* =================================== */
+           .service-items-image img {
+               width: 365px;
+               height: 160px;
+           }
+
+           /* =================================== */
+           .contact-right-side {
+               flex-direction: column;
+           }
+
+           .contact-right-side-image img {
+               width: 352px;
+               height: 218px;
+           }
+
+           /* =================================== */
+           .services-details-segment-heading h3 {
+               font-size: 24px;
+               text-align: center;
+           }
+
+           /* =================================== */
 
        }
 
@@ -329,6 +414,27 @@
                Height: 67px
            }
 
+           /* ============================= */
+           .banner-bg {
+               height: 60vh;
+           }
+
+           .banner-content {
+               width: 90%;
+               padding: 5px;
+               border-radius: 41px;
+           }
+
+           .banner-search-box p {
+               font-size: 18px;
+               padding: 6px;
+           }
+
+           .banner-search-box i {
+               font-size: 32px;
+           }
+
+           /* ============================= */
            .antifoam-defoamers-details-left-side-content h1 {
                font-size: 18px;
            }
@@ -456,7 +562,28 @@
            }
 
            /* =================================== */
+           .service-items-image img {
+               width: 412px;
+               height: 160px;
+           }
 
+           /* =================================== */
+           .contact-right-side {
+               flex-direction: column;
+           }
+
+           .contact-right-side-image img {
+               width: 400px;
+               height: 218px;
+           }
+
+           /* =================================== */
+           .services-details-segment-heading h3 {
+               font-size: 27px;
+               text-align: center;
+           }
+
+           /* =================================== */
 
        }
 
