@@ -100,6 +100,20 @@ body {
     display: block;
 }
 
+.navbar-nav .dropdown-item:focus,
+.navbar-nav .dropdown-item:hover,
+.navbar-nav .dropdown-item.active {
+    background-color: transparent !important;
+    /* Remove background color */
+    color: var(--primary-color);
+    /* Keep the text color the same */
+}
+
+.navbar-nav .dropdown-item:active {
+    background-color: transparent !important;
+    /* Remove active background color */
+}
+
 /*=====================
  banner  section start
 =======================*/
@@ -142,6 +156,7 @@ body {
     font-size: 17px;
     font-weight: 600;
     text-transform: uppercase;
+    color: var(--sky-blue-color);
 
 }
 
@@ -152,6 +167,105 @@ body {
 
 /*=====================
  banner  section end
+=======================*/
+
+/*=====================
+ about  section start
+=======================*/
+.about-section {
+    margin-top: 50px;
+}
+
+.about-title h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--sky-blue-color);
+}
+
+.about-title h3 span {
+    text-transform: uppercase;
+}
+
+.about-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black-color);
+    /* text-align: justify; */
+
+}
+
+.about-content p span {
+    text-transform: uppercase;
+}
+
+.about-content ul li {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black-color);
+
+}
+
+.about-content ul li i {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--sky-blue-color);
+
+}
+
+/*=====================
+ about  section end
+=======================*/
+
+/*=====================
+ market  section start
+=======================*/
+.market-section {
+    margin-top: 50px;
+}
+
+.market-title h3 {
+    font-weight: 500;
+    color: var(--sky-blue-color);
+    font-size: 23px;
+}
+
+.card {
+    width: 18rem;
+}
+
+.card-body h5 {
+    font-weight: 500;
+    color: var(--sky-blue-color);
+    font-size: 20px;
+}
+
+.card-body-content p {
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 15px;
+}
+
+.card-body-content p span {
+    text-transform: uppercase;
+}
+
+.card-body-content p a {
+    font-weight: 400;
+    color: var(--sky-blue-color);
+    font-size: 16px;
+}
+
+.view-all-btn a {
+    margin-top: 10px;
+    font-weight: 400;
+    color: var(--sky-blue-color);
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+/*=====================
+ market  section end
 =======================*/
 
 /*=====================
@@ -662,4 +776,63 @@ service details page start
 
 /*========================
 service details page end
+==========================*/
+
+
+/*========================
+footer page start
+==========================*/
+
+
+.footer {
+    height: 40vh;
+    margin-top: 50px;
+}
+
+
+.footer-title h3 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    color: var(--sky-blue-color);
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.social-media-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media-item i {
+    font-size: 30px;
+    color: var(--black-color);
+    margin-bottom: 10px;
+}
+
+.social-media-item h5 {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 24px;
+    color: var(--black-color);
+
+}
+
+.social-media-item p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--black-color);
+}
+
+
+/*========================
+footer page end
 ==========================*/

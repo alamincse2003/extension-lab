@@ -22,6 +22,7 @@
 
            /* =================================== */
            .banner-bg {
+               width: 332px;
                height: 60vh;
            }
 
@@ -38,6 +39,21 @@
 
            .banner-search-box i {
                font-size: 22px;
+           }
+
+           /* =================================== */
+           .about-title h3 {
+               font-size: 29px;
+           }
+
+           .about-content p {
+               font-size: 18px;
+
+           }
+
+           /* =================================== */
+           .card {
+               width: 19rem;
            }
 
            /* =================================== */
@@ -194,6 +210,12 @@
 
            /* =================================== */
 
+
+
+
+
+           /* =================================== */
+
        }
 
        @media only screen and (max-width: 424px) and (min-width: 375px) {
@@ -220,6 +242,7 @@
 
            /* ============================= */
            .banner-bg {
+               width: 387px;
                height: 60vh;
            }
 
@@ -239,6 +262,22 @@
            }
 
            /* ============================= */
+           /* =================================== */
+           .about-title h3 {
+               font-size: 34px;
+           }
+
+           .about-content p {
+               font-size: 20px;
+
+           }
+
+           /* =================================== */
+           .card {
+               width: 22.5rem;
+           }
+
+           /* =================================== */
            .antifoam-defoamers-details-left-side-content h1 {
                font-size: 18px;
            }
@@ -416,6 +455,7 @@
 
            /* ============================= */
            .banner-bg {
+               width: 437px;
                height: 60vh;
            }
 
@@ -435,6 +475,23 @@
            }
 
            /* ============================= */
+
+           .about-title h3 {
+               font-size: 39px;
+           }
+
+           .about-content p {
+               font-size: 20px;
+
+           }
+
+           /* =================================== */
+
+           .card {
+               width: 26rem;
+           }
+
+           /* =================================== */
            .antifoam-defoamers-details-left-side-content h1 {
                font-size: 18px;
            }
