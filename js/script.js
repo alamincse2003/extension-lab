@@ -11,3 +11,12 @@ searchIcon.addEventListener('click', function () {
         searchInput.style.display = 'none';   // Hide the input field
     }
 });
+
+
+// banner right side select option 
+function navigateToPage(select) {
+    var selectedValue = select.value;
+    if (selectedValue) {
+        window.location.href = selectedValue; // Redirect to the selected page
+    }
+}

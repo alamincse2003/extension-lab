@@ -3,12 +3,17 @@
                display: none;
            }
 
+           .top-navbar {
+               margin-right: 0px;
+               margin-left: 4px;
+           }
+
            .top-navbar .tagline h3 {
-               font-size: 16px;
+               font-size: 17px;
            }
 
            .top-navbar .tagline h4 {
-               font-size: 16px;
+               font-size: 17px;
            }
 
            .main_logo {
@@ -20,8 +25,54 @@
                Height: 67px
            }
 
+           .main-navbar {
+               display: flex;
+               flex-wrap: inherit;
+               align-items: center;
+               margin-left: 24px;
+               gap: 40px;
+
+           }
+
+           .navbar-nav a {
+               margin-left: 0px !important;
+               margin-right: 0px;
+           }
+
+           .navbar-expand-lg {
+               background: none;
+           }
+
            /* =================================== */
-           .banner-bg {
+
+           .banner {
+               margin-left: 18px;
+               margin-right: 2px;
+           }
+
+           .banner-right-side {
+               margin-top: 10px;
+           }
+
+           .banner-image img {
+               height: 50vh;
+           }
+
+           .banner-right-side h3 {
+               font-size: 26px;
+           }
+
+           .banner-right-side p {
+               font-size: 16px;
+           }
+
+           .banner-right-side a {
+               padding: 10px 18px 10px 18px;
+               border: 2px solid var(--white-color);
+               font-size: 22px;
+           }
+
+           /* .banner-bg {
                width: 332px;
                height: 60vh;
            }
@@ -39,24 +90,58 @@
 
            .banner-search-box i {
                font-size: 22px;
-           }
+           } */
 
            /* =================================== */
+           .about-section {
+               margin-right: 12px;
+               margin-left: 19px;
+
+           }
+
            .about-title h3 {
-               font-size: 29px;
+               font-size: 26px;
            }
 
            .about-content p {
-               font-size: 18px;
+               font-size: 16px;
+               text-align: left;
 
            }
 
            /* =================================== */
+           .market-section {
+               margin-left: 20px;
+               margin-right: 12px;
+           }
+
+           .slick-prev:before,
+           .slick-next:before {
+               display: none;
+           }
+
+           .slider {
+               margin-left: -20px;
+               margin-right: -6px;
+           }
+
            .card {
                width: 19rem;
            }
 
            /* =================================== */
+            /* market about details page start */
+            .market-about-details {
+                margin-left: 22px;
+                margin-right: 22px;
+            }
+            /* market about details page start */
+           /* =================================== */
+           .antifoam-defoamers {
+               margin-right: 10px;
+               margin-left: 10px;
+           }
+
            .antifoam-defoamers-product-finder-left-side {
                font-size: 14px;
            }
@@ -69,6 +154,26 @@
                font-size: 14px;
            }
 
+           /* ============================= */
+           .comapnyNews-header {
+               margin-left: 28px;
+           }
+
+           .antifoam-defoamers-product-title {
+               margin-top: 20px;
+               margin-left: 20px;
+           }
+
+           .antifoam-defoamers-product-heading a {
+               font-size: 17px;
+               margin-left: 22px;
+               margin-right: 10px;
+           }
+
+           .antifoam-defoamers-details {
+               margin-left: -18px;
+           }
+
            .antifoam-defoamers-details-right-side {
                display: flex;
                flex-direction: column;
@@ -76,11 +181,11 @@
 
 
            .antifoam-defoamers-details-left-side-content h1 {
-               font-size: 18px;
+               font-size: 21px;
            }
 
            .antifoam-defoamers-details-left-side-content p {
-               font-size: 0.9em;
+               font-size: 14px;
                width: 264px;
            }
 
@@ -89,8 +194,14 @@
            }
 
            .antifoam-defoamers-details-right-side {
-               padding: 15px;
-               width: 100%;
+               margin-left: 4px;
+               padding: 20px;
+               width: 126%;
+           }
+
+           .back-btn-section {
+               margin-left: 20px;
+               margin-top: 20px;
            }
 
            .antifoam-defoamers-details-right-side-content {
@@ -166,6 +277,10 @@
            }
 
            /* =================================== */
+           .sustainability-header {
+               margin-left: 15px;
+           }
+
            .sustainability-bg {
                padding: 10px;
            }
@@ -181,18 +296,55 @@
            }
 
            .sustainability-title h3 {
-               font-size: 16px;
+               font-size: 15px;
                margin-left: 0;
                text-align: center;
            }
 
-           /* =================================== */
-           .service-items-image img {
-               width: 308px;
-               height: 160px;
+           .sustainability-left-side-content p {
+               font-size: 14px;
+           }
+
+           .sustainability {
+               margin-left: 10px;
            }
 
            /* =================================== */
+           .services {
+               margin-left: 27px;
+           }
+
+           .service-title h3 {
+               font-size: 33px;
+           }
+
+           .service-items-image img {
+               width: 263px;
+               height: 160px;
+           }
+
+           .service-content p {
+               font-size: 14px;
+               width: 268px;
+
+           }
+
+           /* =================================== */
+           .services-details-page {
+               margin-left: 25px;
+               margin-right: 25px;
+           }
+
+           .services-details-segment-heading h3 {
+               font-size: 23px;
+               text-align: center;
+           }
+
+           /* =================================== */
+           .contact {
+               margin-left: 27px;
+           }
+
            .contact-right-side {
                flex-direction: column;
            }
@@ -203,24 +355,21 @@
            }
 
            /* =================================== */
-           .services-details-segment-heading h3 {
-               font-size: 24px;
-               text-align: center;
-           }
-
-           /* =================================== */
-
-
-
-
-
-           /* =================================== */
 
        }
 
        @media only screen and (max-width: 424px) and (min-width: 375px) {
            .logo {
                display: none;
+           }
+
+           .top-navbar {
+               margin-right: 0px;
+               margin-left: 8px;
+           }
+
+           .navbar-expand-lg {
+               background: none;
            }
 
            .top-navbar .tagline h3 {
@@ -240,8 +389,50 @@
                Height: 67px
            }
 
+           .main-navbar {
+               display: flex;
+               flex-wrap: inherit;
+               align-items: center;
+               margin-left: 26px;
+               gap: 80px;
+
+           }
+
+           .navbar-nav a {
+               margin-left: 0px !important;
+               margin-right: 0px;
+           }
+
            /* ============================= */
-           .banner-bg {
+
+           .banner {
+               margin-left: 28px;
+               margin-right: 16px;
+           }
+
+           .banner-right-side {
+               margin-top: 10px;
+           }
+
+           .banner-image img {
+               height: 90vh;
+           }
+
+           .banner-right-side h3 {
+               font-size: 28px;
+           }
+
+           .banner-right-side p {
+               font-size: 18px;
+           }
+
+           .banner-right-side a {
+               padding: 10px 18px 10px 18px;
+               border: 2px solid var(--white-color);
+               font-size: 22px;
+           }
+
+           /* .banner-bg {
                width: 387px;
                height: 60vh;
            }
@@ -259,25 +450,58 @@
 
            .banner-search-box i {
                font-size: 32px;
-           }
+           } */
 
            /* ============================= */
            /* =================================== */
+           .about-section {
+               margin-right: 22px;
+               margin-left: 32px;
+
+           }
+
            .about-title h3 {
-               font-size: 34px;
+               font-size: 28px;
            }
 
            .about-content p {
-               font-size: 20px;
+               font-size: 16px;
+               text-align: left;
 
            }
 
            /* =================================== */
+           .market-section {
+               margin-left: 33px;
+               margin-right: 12px;
+           }
+
+           .slick-prev:before,
+           .slick-next:before {
+               display: none;
+           }
+
+           .slider {
+               margin-left: -20px;
+               margin-right: -6px;
+           }
+
            .card {
-               width: 22.5rem;
+               width: 21rem;
+           }
+ /* market about details page start */
+ .market-about-details {
+     margin-left: 22px;
+     margin-right: 22px;
+ }
+
+ /* market about details page start */
+           /* =================================== */
+           .antifoam-defoamers {
+               margin-right: 10px;
+               margin-left: 10px;
            }
 
-           /* =================================== */
            .antifoam-defoamers-details-left-side-content h1 {
                font-size: 18px;
            }
@@ -298,17 +522,41 @@
            }
 
            .antifoam-defoamers-details-left-side-content p {
-               font-size: 0.9em;
-               width: 264px;
+               font-size: 14px;
            }
 
            .antifoam-defoamers-details-left-side-content ul {
                padding-left: 20px;
            }
 
+           /* ============================= */
+           .comapnyNews-header {
+               margin-left: 28px;
+           }
+
+           .antifoam-defoamers-product-title {
+               margin-top: 20px;
+               margin-left: 20px;
+           }
+
+           .antifoam-defoamers-product-heading a {
+               font-size: 17px;
+               margin-left: 22px;
+               margin-right: 10px;
+           }
+
+           .antifoam-defoamers-details {
+               margin-left: -18px;
+           }
+
            .antifoam-defoamers-details-right-side {
-               padding: 15px;
-               width: 100%;
+               margin-left: 4px;
+               padding: 20px;
+               width: 126%;
+           }
+
+           .back-btn-section {
+               margin-left: 20px;
            }
 
            .antifoam-defoamers-details-right-side-content {
@@ -405,12 +653,30 @@
            }
 
            /* =================================== */
+           .services {
+               margin-left: 27px;
+           }
+
+           .service-title h3 {
+               font-size: 42px;
+           }
+
            .service-items-image img {
-               width: 365px;
+               width: 326px;
                height: 160px;
            }
 
+           .service-content p {
+               font-size: 14px;
+               width: 325px;
+
+           }
+
            /* =================================== */
+           .contact {
+               margin-left: 27px;
+           }
+
            .contact-right-side {
                flex-direction: column;
            }
@@ -421,8 +687,13 @@
            }
 
            /* =================================== */
+           .services-details-page {
+               margin-left: 25px;
+               margin-right: 25px;
+           }
+
            .services-details-segment-heading h3 {
-               font-size: 24px;
+               font-size: 23px;
                text-align: center;
            }
 
@@ -434,6 +705,15 @@
 
            .logo {
                display: none;
+           }
+
+           .top-navbar {
+               margin-right: -16px;
+               margin-left: 5px;
+           }
+
+           .navbar-expand-lg {
+               background: none;
            }
 
            .top-navbar .tagline h3 {
@@ -453,8 +733,51 @@
                Height: 67px
            }
 
+           .main-navbar {
+               display: flex;
+               flex-wrap: inherit;
+               align-items: center;
+               margin-left: 25px;
+               gap: 140px;
+
+           }
+
+           .navbar-nav a {
+               margin-left: 0px !important;
+               margin-right: 0px;
+           }
+
            /* ============================= */
-           .banner-bg {
+           .banner {
+               margin-left: 28px;
+               margin-right: 17px;
+           }
+
+           .banner-right-side {
+               width: 390px;
+               margin-top: 10px;
+           }
+
+           .banner-image img {
+               width: 390px;
+               height: 80vh;
+           }
+
+           .banner-right-side h3 {
+               font-size: 30px;
+           }
+
+           .banner-right-side p {
+               font-size: 18px;
+           }
+
+           .banner-right-side a {
+               padding: 10px 46px 10px 46px;
+               border: 2px solid var(--white-color);
+               font-size: 28px;
+           }
+
+           /* .banner-bg {
                width: 437px;
                height: 60vh;
            }
@@ -472,26 +795,58 @@
 
            .banner-search-box i {
                font-size: 32px;
-           }
+           } */
 
            /* ============================= */
 
+           .about-section {
+               margin-right: 22px;
+               margin-left: 28px;
+
+           }
+
            .about-title h3 {
-               font-size: 39px;
+               font-size: 30px;
            }
 
            .about-content p {
-               font-size: 20px;
+               font-size: 16px;
+               text-align: left;
 
            }
 
            /* =================================== */
+           .market-section {
+               margin-left: 33px;
+               margin-right: 12px;
+           }
+
+           .slick-prev:before,
+           .slick-next:before {
+               display: none;
+           }
+
+           .slider {
+               margin-left: -20px;
+               margin-right: -6px;
+           }
 
            .card {
-               width: 26rem;
+               width: 24rem;
+           }
+ /* market about details page start */
+ .market-about-details {
+     margin-left: 22px;
+     margin-right: 22px;
+ }
+
+ /* market about details page start */
+           /* =================================== */
+           .antifoam-defoamers {
+               margin-right: 10px;
+               margin-left: 20px;
            }
 
-           /* =================================== */
            .antifoam-defoamers-details-left-side-content h1 {
                font-size: 18px;
            }
@@ -512,17 +867,43 @@
            }
 
            .antifoam-defoamers-details-left-side-content p {
-               font-size: 0.9em;
-               width: 264px;
+               font-size: 14px;
+               width: 414px;
+
            }
 
            .antifoam-defoamers-details-left-side-content ul {
                padding-left: 20px;
            }
 
+           /* ============================= */
+           .comapnyNews-header {
+               margin-left: 28px;
+           }
+
+           .antifoam-defoamers-product-title {
+               margin-top: 20px;
+               margin-left: 20px;
+           }
+
+           .antifoam-defoamers-product-heading a {
+               font-size: 17px;
+               margin-left: 22px;
+               margin-right: 10px;
+           }
+
+           .antifoam-defoamers-details {
+               margin-left: -18px;
+           }
+
            .antifoam-defoamers-details-right-side {
-               padding: 15px;
-               width: 100%;
+               margin-left: 4px;
+               padding: 20px;
+               width: 126%;
+           }
+
+           .back-btn-section {
+               margin-left: 20px;
            }
 
            .antifoam-defoamers-details-right-side-content {
@@ -619,12 +1000,31 @@
            }
 
            /* =================================== */
+           /* =================================== */
+           .services {
+               margin-left: 27px;
+           }
+
+           .service-title h3 {
+               font-size: 51px;
+           }
+
+           .service-content p {
+               font-size: 14px;
+               width: 376px;
+
+           }
+
            .service-items-image img {
-               width: 412px;
+               width: 382px;
                height: 160px;
            }
 
            /* =================================== */
+           .contact {
+               margin-left: 27px;
+           }
+
            .contact-right-side {
                flex-direction: column;
            }
@@ -635,8 +1035,13 @@
            }
 
            /* =================================== */
+           .services-details-page {
+               margin-left: 25px;
+               margin-right: 25px;
+           }
+
            .services-details-segment-heading h3 {
-               font-size: 27px;
+               font-size: 23px;
                text-align: center;
            }
 
@@ -650,27 +1055,106 @@
            }
 
            .top-navbar .tagline h3 {
-               font-size: 45px;
+               font-size: 22px;
+           }
+
+           .top-navbar .tagline h4 {
+               font-size: 22px;
            }
 
            .main_logo {
                display: block;
            }
+
+           .main_logo img {
+               margin-left: 40px;
+               Width: 262px;
+               Height: 101px;
+           }
+
+           /* ============================= */
+           /* ============================= */
+           .banner-right-side {
+               width: 719px;
+               margin-top: 10px;
+           }
+
+           .banner-image img {
+               width: 719px;
+               height: 80vh;
+           }
+
+           .banner-right-side h3 {
+               font-size: 45px;
+           }
+
+           .banner-right-side p {
+               font-size: 25px;
+           }
+
+           .banner-right-side a {
+               padding: 18px 100px 18px 100px;
+               border: 2px solid var(--white-color);
+               font-size: 55px;
+           }
+
+           /* .banner-bg {
+               width: 768px;
+               height: 100vh;
+           }
+
+           .banner-content {
+               width: 78%;
+               padding: 5px;
+               border-radius: 41px;
+           }
+
+           .banner-search-box p {
+               font-size: 18px;
+               padding: 6px;
+           }
+
+           .banner-search-box i {
+               font-size: 32px;
+           } */
+
+           /* ============================= */
+           .card {
+               width: 21rem;
+               margin-left: auto;
+           }
+
+           /* ============================= */
+           .sustainability-title h3 {
+               font-size: 37px;
+           }
        }
+
+       /* 
+       @media only screen and (max-width: 1024px) {
+           .main_logo img {
+               margin-left: 42px;
+               Width: 278px;
+               Height: 101px;
+           }
+
+           .navbar-nav a {
+               font-size: 18px;
+           }
+
+           .banner-bg {
+               width: 1070px;
+               height: 110vh;
+           }
+       } */
 
        @media only screen and (max-width: 1199px) and (min-width: 992px) {
-           .main-navbar ul {
-               justify-content: space-between;
+           .main_logo img {
+               margin-left: 42px;
+               Width: 278px;
+               Height: 101px;
            }
 
-           .main-navbar ul li a {
-               font-size: 18px;
-           }
        }
 
-       @media only screen and (max-width: 1399px) and (min-width: 1200px) {
-           .main-navbar ul li a {
-               font-size: 18px;
-               padding: 12px 15px;
-           }
-       }
+       @media only screen and (max-width: 1399px) and (min-width: 1200px) {}
